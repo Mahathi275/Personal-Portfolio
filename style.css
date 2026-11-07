@@ -1,0 +1,194 @@
+/* Precise Color Palette Properties Extracted Directly from Reference Image File */
+:root {
+  --core-purple-accent: #7822ff;
+  --hover-dark-purple: #5a16cc;
+  --outline-purple-border: #8d54ff;
+  --body-text-gray: #555e70;
+  --dark-headline: #18191f;
+  --canvas-bg-white: #ffffff;
+  --light-border-node: #e6e8ec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--canvas-bg-white);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--body-text-gray);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 1. Precise Navigation Custom Styles */
+.navbar-custom .nav-link {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #4f5665 !important;
+  transition: color 0.25s ease;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .active-nav-anchor {
+  color: var(--core-purple-accent) !important;
+}
+
+.purple-period {
+  color: var(--core-purple-accent);
+}
+
+/* Precise Rectangular CTA Matches */
+.top-right-cta {
+  background-color: var(--core-purple-accent) !important;
+  border-radius: 8px !important;
+  padding: 10px 24px !important;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+.top-right-cta:hover {
+  background-color: var(--hover-dark-purple) !important;
+}
+
+/* 2. Exact Hero Section Properties Match */
+.hero-canvas {
+  padding: 100px 0;
+  min-height: 85vh;
+}
+
+.main-hero-title {
+  font-size: 3.8rem;
+  line-height: 1.15;
+  letter-spacing: -2px;
+  color: var(--dark-headline);
+}
+
+.purple-highlight-text {
+  color: var(--core-purple-accent);
+}
+
+.hero-subtitle-occupation {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3142 !important;
+}
+
+.hero-body-copy {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 530px;
+  color: #656d7a !important;
+}
+
+/* Exact Flat Solid and Border Button Shapes Pairs */
+.btn-solid-purple {
+  background-color: var(--core-purple-accent) !important;
+  border: 2px solid var(--core-purple-accent) !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 12px 28px !important;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn-solid-purple:hover {
+  background-color: var(--hover-dark-purple) !important;
+  border-color: var(--hover-dark-purple) !important;
+  transform: translateY(-2px);
+}
+
+.btn-outline-purple-pill {
+  background-color: transparent !important;
+  border: 2px solid var(--outline-purple-border) !important;
+  color: var(--core-purple-accent) !important;
+  border-radius: 8px !important;
+  padding: 12px 28px !important;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.btn-outline-purple-pill:hover {
+  background-color: rgba(120, 34, 255, 0.05) !important;
+  transform: translateY(-2px);
+}
+
+/* Exact Circular Social Icons Placements Match */
+.circle-social-handle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: var(--core-purple-accent);
+  color: #ffffff !important;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  font-size: 1.05rem;
+}
+.circle-social-handle:hover {
+  background-color: var(--hover-dark-purple);
+  transform: scale(1.1);
+}
+
+/* Right Side Portrait Node Parameters */
+.portrait-wrapper-node {
+  position: relative;
+  display: inline-block;
+}
+
+.primary-mockup-portrait {
+  max-height: 480px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* Floating Metrics Badge Node */
+.academic-stats-badge {
+  position: absolute;
+  bottom: 30px;
+  left: -20px;
+  background: #ffffff;
+  border: 1px solid var(--light-border-node);
+  padding: 12px 22px;
+  border-radius: 12px;
+  z-index: 10;
+  text-align: center;
+}
+.badge-accent-metric {
+  font-size: 1.4rem;
+}
+.badge-label-string {
+  font-size: 0.7rem;
+}
+
+/* 3. Generic Framework Component Structural Enhancements */
+.dark-table-head-row {
+  background-color: var(--dark-headline) !important;
+}
+.text-purple-variant {
+  color: var(--core-purple-accent);
+}
+.status-pill-indicator {
+  background-color: rgba(46, 204, 113, 0.1);
+  color: #2ecc71;
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.structural-project-card {
+  border: 1px solid var(--light-border-node) !important;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.structural-project-card:hover {
+  transform: translateY(-5px);
+}
+.tech-tag-capsule {
+  background-color: #f4f5f7;
+  color: #4a5568;
+  padding: 6px 12px;
+  margin-right: 4px;
+}
+
+.fs-8 {
+  font-size: 0.78rem;
+}
